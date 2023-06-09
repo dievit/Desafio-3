@@ -1,0 +1,18 @@
+body{
+    padding:2%;
+    margin: 0 auto;
+    width: 80%;
+    text-align: justify;
+}
+
+.link{
+    float: right;
+}
+
+.rodape{
+    text-align: center;
+}
+
+input[name=message]{
+    height: 100px;
+}

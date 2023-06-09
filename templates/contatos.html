@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+
+    <!-- Menu -->
+    <body background="../static/imagens/fundo2.png" alt="fundo2">
+        <div>
+            <h1>Entre em contato</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis iure animi voluptatum minima maiores neque amet expedita.</p>
+        </div>
+    <hr>
+        <div class="form">
+            <form action="/contatos" method="POST">
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email" required><br>
+                <label for="assunto">Assunto</label><br>
+                <input type="text" name="assunto" id="assunto" required><br>
+                <label for="descricao">Mensagem</label><br>
+                <input type="text" name="descricao" id="descricao" required><br>
+                <button type="submit">Enviar</button><br>
+            </form>
+        </div>
+{% endblock %}
+            <!-- rodape -->
+              
